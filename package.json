@@ -1,6 +1,5 @@
 {
   "name": "server",
-  "homepage": "https://milliwonkim.github.io/react-chat-application",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,8 +14,6 @@
     "gh-pages": "^2.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "client-install": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node index.js",
